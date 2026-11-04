@@ -1,0 +1,25 @@
+a/
+a/b/
+a/b/c.txt
+a/b/d.py
+a/.hid
+a/.hdir/
+a/.hdir/x.txt
+a/e.txt
+a/f.TXT
+b/
+b/x.py
+b/y.txt
+b/z z.txt
+c[1].txt
+ü/
+ü/ä.txt
+ü/日本.md
+top.py
+.dot.py
+deep/
+deep/1/
+deep/1/2/
+deep/1/2/3.txt
+link -> a/b
+dangle -> nowhere

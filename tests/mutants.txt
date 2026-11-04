@@ -1,0 +1,6 @@
+src/glob/fnmatch.mojo|            k = f + 3|            k = f + 1
+src/glob/fnmatch.mojo|chunks[m - 1][len(chunks[m - 1]) - 1] > chunks[m][0]|chunks[m - 1][len(chunks[m - 1]) - 1] >= chunks[m][0]
+src/glob/fnmatch.mojo|        return (((c & 0x1F) << 6) | (Int(b[i + 1]) & 0x3F), 2)|        return (((c & 0x0F) << 6) | (Int(b[i + 1]) & 0x3F), 2)
+src/glob/walk.mojo|if (hidden or _hidden(pat) or not _hidden(n)) and p.matches(n):|if p.matches(n):
+src/glob/walk.mojo|(recursive and pathname.startswith("**"))|(recursive and pathname == "**")
+src/glob/fnmatch.mojo|if s[e + k - 1] != p[k]:|if s[e + k - 1] == 0:
