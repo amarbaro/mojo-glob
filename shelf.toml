@@ -1,0 +1,4 @@
+name = "mojo-glob"
+version = "0.1.2"
+description = "Shell-style wildcards for Mojo: fnmatch and glob (recursive **, root_dir), identical to Python"
+tags = ["mojo", "glob", "filesystem"]
